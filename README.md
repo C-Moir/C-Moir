@@ -25,7 +25,7 @@ Most of what I build starts as a tool I needed and couldn't find.
 
 ## Projects
 
-**[Doughboy](https://doughboy-app.vercel.app)**  
+**[Doughboy](https://doughboy-prd.vercel.app)**  
 Production intelligence for multi-venue pizza kitchens.
 The problem nobody measures until the P&L goes sideways.
 
