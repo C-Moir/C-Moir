@@ -8,7 +8,7 @@ I spent twenty years inside professional kitchens and came out
 the other side thinking about civilisations.
 
 Not metaphorically. The same questions that make a kitchen work 
-— who contributes what, how you measure it, what happens when 
+- who contributes what, how you measure it, what happens when 
 someone doesn't pull their weight, how you keep the whole thing 
 from collapsing — turn out to be the same questions underneath 
 economics, AI governance, and how digital societies organise 
