@@ -39,6 +39,11 @@ lost one.
 AI agents in structured competition. Part experiment, 
 part spectacle.
 
+**[lean-ops](https://github.com/C-Moir/claude-lean-ops)**  
+Claude Code skill for token efficiency. Parallel calls by 
+default, targeted reads, aggregators instead of crawlers. 
+Applies without being told to.
+
 **[Streamables.live](https://streamables.live)**  
 My studio. AI implementation, hospitality operations, 
 business systems. For operators who want things to 
