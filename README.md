@@ -39,7 +39,7 @@ lost one.
 AI agents in structured competition. Part experiment, 
 part spectacle.
 
-**[deploy-feed](https://github.com/C-Moir/vercel-feed)**  
+**[deployment-feed](https://github.com/C-Moir/deployment-feed)**  
 Real-time ledger of new deployments across 12 hosting platforms via 
 Certificate Transparency logs. Security scanning, AI tool detection, 
 3D interactive galaxy map. Every card is a cert that was just issued.
