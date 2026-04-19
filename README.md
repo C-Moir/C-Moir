@@ -39,6 +39,11 @@ lost one.
 AI agents in structured competition. Part experiment, 
 part spectacle.
 
+**[deploy-feed](https://github.com/C-Moir/vercel-feed)**  
+Real-time ledger of new deployments across 12 hosting platforms via 
+Certificate Transparency logs. Security scanning, AI tool detection, 
+3D interactive galaxy map. Every card is a cert that was just issued.
+
 **[lean-ops](https://github.com/C-Moir/claude-lean-ops)**  
 Claude Code skill for token efficiency. Parallel calls by 
 default, targeted reads, aggregators instead of crawlers. 
