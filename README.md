@@ -25,6 +25,11 @@ Most of what I build starts as a tool I needed and couldn't find.
 
 ## Projects
 
+**[ClipTips](https://cliptips-mvp.vercel.app)**  
+Live paid sessions with verified experts, translated in
+real time. The person who can answer your question exists.
+They just don't speak your language.
+
 **[Doughboy](https://doughboy-prd.vercel.app)**  
 Production intelligence for multi-venue pizza kitchens.
 The problem nobody measures until the P&L goes sideways.
