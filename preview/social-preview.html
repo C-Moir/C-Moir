@@ -19,9 +19,9 @@
     font-family: 'Inter', -apple-system, sans-serif;
     position: relative;
     padding: 72px 84px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 0;
   }
 
   /* Layer 1: Faint base grid for depth */
@@ -140,7 +140,9 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 48px;
-    padding-bottom: 12px;
+    align-self: center;      /* Centre vertically in the 1fr row */
+    justify-self: stretch;
+    width: 100%;
   }
 
   .avatar-wrap {
