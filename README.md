@@ -1,3 +1,7 @@
+<table>
+<tr>
+<td width="58%" valign="top">
+
 # Cameron J. Moir
 
 Brisbane, Australia.
@@ -9,6 +13,19 @@ Hospitality gave me an operator's eye. Software gave me the tools to act on it s
 Claude Code is my main dev environment and I'm not cagey about it. AI removes the lag between knowing what to build and having it exist. Judgement still matters. Taste still matters. Volume just goes up.
 
 Most of what I build starts as a tool I needed and couldn't find.
+
+</td>
+<td width="42%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=C-Moir&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=e5e7eb" alt="GitHub stats" width="100%" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=C-Moir&layout=compact&hide_border=true&bg_color=0d1117&title_color=818cf8&text_color=e5e7eb" alt="Top languages" width="100%" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -86,10 +103,7 @@ I build is some version of that.
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=C-Moir&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=e5e7eb" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=C-Moir&layout=compact&hide_border=true&bg_color=0d1117&title_color=818cf8&text_color=e5e7eb" alt="Top languages" />
-</p>
+![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=C-Moir&theme=github-compact&hide_border=true&bg_color=0d1117&line=818cf8&point=e5e7eb&area=true&custom_title=Contribution+Activity)
 
 ---
 
