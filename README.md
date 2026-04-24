@@ -70,7 +70,7 @@ own names.
 
 ## Stack
 
-[![My Skills](https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,supabase,postgres,stripe,vercel,github,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,supabase,postgres,vercel,github,git)](https://skillicons.dev)&nbsp;<img src="https://cdn.simpleicons.org/stripe/635bff" height="48" alt="Stripe" />
 
 Next.js App Router, TypeScript, Supabase, Stripe, Clerk, Vercel.
 Playwright when it's worth it. Linear for issues. PostHog once a
@@ -104,6 +104,8 @@ it, what breaks first when you stop paying attention. Every product
 I build is some version of that.
 
 ---
+
+![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=C-Moir&theme=github-compact&hide_border=true&bg_color=0d1117&line=818cf8&point=e5e7eb&area=true&custom_title=Contribution+Activity)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C-Moir/C-Moir/output/github-contribution-grid-snake-dark.svg" />
