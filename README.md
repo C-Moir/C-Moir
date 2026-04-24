@@ -117,4 +117,5 @@ Every product I build is some version of that.
 
 *Brisbane ·
 [streamables.live](https://streamables.live) ·
+[@camjmoir](https://x.com/camjmoir) ·
 [@X_Streamables](https://x.com/X_Streamables)*
