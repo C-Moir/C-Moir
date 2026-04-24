@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+<g stroke="#818cf8" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 760 120 L 600 120 L 600 240 L 440 240 L 440 360 L 280 360 L 280 320"/>
+<path d="M 720 320 L 880 320 L 880 360"/>
+<path d="M 200 240 L 200 160 L 320 160 L 320 120 L 240 120 L 240 200 L 160 200"/>
+<path d="M 1360 160 L 1320 160 L 1320 120 L 1160 120 L 1160 200 L 1040 200 L 1040 240"/>
+<path d="M 200 320 L 200 360 L 80 360"/>
+<path d="M 1120 160 L 1120 120 L 1080 120 L 1080 200 L 1200 200"/>
+<path d="M 1120 120 L 1080 120 L 1080 240 L 1280 240 L 1280 120 L 1160 120"/>
+<path d="M 160 200 L 240 200 L 240 120"/>
+<path d="M 120 320 L 120 280 L 40 280 L 40 160 L 120 160 L 120 200 L 40 200"/>
+<path d="M 1120 240 L 1000 240 L 1000 320 L 840 320 L 840 400 L 920 400 L 920 460"/>
+<path d="M 1000 400 L 960 400 L 960 460"/>
+<path d="M 1000 400 L 1000 460 L 1160 460"/>
+<path d="M 1240 320 L 1200 320 L 1200 360"/>
+<path d="M 760 360 L 760 400 L 560 400 L 560 460 L 680 460 L 680 420 L 880 420"/>
+<path d="M 360 200 L 360 240 L 160 240 L 160 200 L 360 200 L 360 80"/>
+<path d="M 1120 200 L 1120 120 L 1280 120"/>
+<path d="M 600 160 L 680 160 L 680 80 L 480 80 L 480 120"/>
+<path d="M 1080 200 L 1160 200 L 1160 160 L 1080 160"/>
+<path d="M 600 80 L 560 80 L 560 160 L 480 160 L 480 200"/>
+<path d="M 1160 400 L 1160 460 L 1240 460 L 1240 380"/>
+<path d="M 80 200 L 240 200 L 240 160 L 40 160 L 40 40 L 40 40"/>
+<path d="M 200 280 L 80 280 L 80 360 L 120 360"/>
+<path d="M 1240 240 L 1240 360 L 1280 360 L 1280 400 L 1160 400"/>
+<path d="M 440 80 L 480 80 L 480 200 L 600 200"/>
+<path d="M 160 160 L 160 200 L 320 200 L 320 160 L 200 160"/>
+<path d="M 760 400 L 760 460 L 960 460 L 960 460 L 1120 460 L 1120 420 L 920 420"/>
+<path d="M 800 200 L 800 160 L 880 160 L 880 80 L 800 80 L 800 200"/>
+<path d="M 920 400 L 1080 400 L 1080 320 L 1120 320 L 1120 440"/>
+<path d="M 960 320 L 1160 320 L 1160 400 L 1280 400 L 1280 360"/>
+<path d="M 1000 160 L 1000 80 L 800 80 L 800 160"/>
+<path d="M 1400 360 L 1240 360 L 1240 320"/>
+<path d="M 1000 320 L 1040 320 L 1040 240 L 840 240 L 840 320 L 960 320"/>
+<path d="M 320 400 L 400 400 L 400 320"/>
+<path d="M 1400 400 L 1240 400 L 1240 280 L 1280 280"/>
+<path d="M 800 320 L 640 320 L 640 360 L 680 360 L 680 320 L 840 320"/>
+<path d="M 920 400 L 920 280 L 720 280 L 720 400 L 520 400 L 520 460 L 600 460"/>
+<path d="M 1080 240 L 1240 240 L 1240 320 L 1120 320 L 1120 240 L 960 240 L 960 280"/>
+<path d="M 120 80 L 120 40 L 40 40"/>
+<path d="M 760 360 L 640 360 L 640 320 L 560 320 L 560 440 L 440 440"/>
+<path d="M 840 200 L 840 320 L 760 320"/>
+<path d="M 560 320 L 640 320 L 640 360 L 800 360"/>
+<path d="M 1120 360 L 1120 320 L 1160 320"/>
+<path d="M 1160 200 L 1280 200 L 1280 280 L 1160 280"/>
+<path d="M 1000 80 L 1120 80 L 1120 200 L 1040 200 L 1040 80"/>
+<path d="M 640 120 L 640 40 L 480 40 L 480 120 L 680 120 L 680 40"/>
+<path d="M 1000 400 L 1000 360 L 1120 360 L 1120 240"/>
+<path d="M 520 200 L 440 200 L 440 320 L 400 320 L 400 240"/>
+<path d="M 240 400 L 320 400 L 320 280 L 360 280 L 360 400 L 240 400"/>
+<path d="M 200 280 L 160 280 L 160 240"/>
+<path d="M 240 160 L 400 160 L 400 280"/>
+</g>
+<g fill="#818cf8">
+<circle cx="320" cy="120" r="2.4"/>
+<circle cx="1280" cy="400" r="2.4"/>
+<circle cx="640" cy="320" r="2.4"/>
+<circle cx="560" cy="440" r="2.4"/>
+<circle cx="840" cy="400" r="2.4"/>
+<circle cx="680" cy="420" r="2.4"/>
+<circle cx="760" cy="120" r="2.4"/>
+<circle cx="120" cy="40" r="2.4"/>
+<circle cx="240" cy="160" r="2.4"/>
+<circle cx="1160" cy="200" r="2.4"/>
+<circle cx="1120" cy="200" r="2.4"/>
+<circle cx="120" cy="360" r="2.4"/>
+<circle cx="840" cy="320" r="2.4"/>
+<circle cx="520" cy="200" r="2.4"/>
+<circle cx="600" cy="460" r="2.4"/>
+<circle cx="1040" cy="320" r="2.4"/>
+<circle cx="400" cy="240" r="2.4"/>
+<circle cx="80" cy="360" r="2.4"/>
+<circle cx="160" cy="240" r="2.4"/>
+<circle cx="800" cy="320" r="2.4"/>
+<circle cx="1000" cy="320" r="2.4"/>
+<circle cx="360" cy="240" r="2.4"/>
+<circle cx="1400" cy="400" r="2.4"/>
+<circle cx="120" cy="280" r="2.4"/>
+<circle cx="760" cy="360" r="2.4"/>
+<circle cx="840" cy="240" r="2.4"/>
+<circle cx="320" cy="280" r="2.4"/>
+<circle cx="1040" cy="240" r="2.4"/>
+<circle cx="400" cy="160" r="2.4"/>
+<circle cx="80" cy="280" r="2.4"/>
+<circle cx="160" cy="160" r="2.4"/>
+<circle cx="600" cy="160" r="2.4"/>
+<circle cx="1240" cy="240" r="2.4"/>
+<circle cx="1200" cy="320" r="2.4"/>
+<circle cx="1000" cy="240" r="2.4"/>
+<circle cx="760" cy="460" r="2.4"/>
+<circle cx="520" cy="460" r="2.4"/>
+<circle cx="320" cy="200" r="2.4"/>
+<circle cx="960" cy="280" r="2.4"/>
+<circle cx="920" cy="460" r="2.4"/>
+<circle cx="800" cy="160" r="2.4"/>
+<circle cx="600" cy="80" r="2.4"/>
+<circle cx="360" cy="80" r="2.4"/>
+<circle cx="1000" cy="160" r="2.4"/>
+<circle cx="400" cy="400" r="2.4"/>
+<circle cx="200" cy="320" r="2.4"/>
+<circle cx="1160" cy="460" r="2.4"/>
+<circle cx="360" cy="400" r="2.4"/>
+<circle cx="1120" cy="460" r="2.4"/>
+<circle cx="1040" cy="80" r="2.4"/>
+<circle cx="1280" cy="360" r="2.4"/>
+<circle cx="800" cy="80" r="2.4"/>
+<circle cx="1000" cy="80" r="2.4"/>
+<circle cx="400" cy="320" r="2.4"/>
+<circle cx="200" cy="240" r="2.4"/>
+<circle cx="480" cy="200" r="2.4"/>
+<circle cx="880" cy="420" r="2.4"/>
+<circle cx="1240" cy="400" r="2.4"/>
+<circle cx="1000" cy="400" r="2.4"/>
+<circle cx="440" cy="200" r="2.4"/>
+<circle cx="240" cy="120" r="2.4"/>
+<circle cx="1280" cy="280" r="2.4"/>
+<circle cx="520" cy="400" r="2.4"/>
+<circle cx="200" cy="160" r="2.4"/>
+<circle cx="480" cy="120" r="2.4"/>
+<circle cx="600" cy="240" r="2.4"/>
+<circle cx="1240" cy="320" r="2.4"/>
+<circle cx="40" cy="40" r="2.4"/>
+<circle cx="680" cy="120" r="2.4"/>
+<circle cx="1080" cy="200" r="2.4"/>
+<circle cx="1280" cy="200" r="2.4"/>
+<circle cx="560" cy="460" r="2.4"/>
+<circle cx="280" cy="360" r="2.4"/>
+<circle cx="640" cy="120" r="2.4"/>
+<circle cx="1120" cy="80" r="2.4"/>
+<circle cx="760" cy="320" r="2.4"/>
+<circle cx="440" cy="440" r="2.4"/>
+<circle cx="1160" cy="400" r="2.4"/>
+<circle cx="480" cy="40" r="2.4"/>
+<circle cx="720" cy="320" r="2.4"/>
+<circle cx="1320" cy="120" r="2.4"/>
+<circle cx="680" cy="40" r="2.4"/>
+<circle cx="1080" cy="120" r="2.4"/>
+<circle cx="1280" cy="120" r="2.4"/>
+<circle cx="640" cy="40" r="2.4"/>
+<circle cx="960" cy="460" r="2.4"/>
+<circle cx="40" cy="280" r="2.4"/>
+<circle cx="680" cy="360" r="2.4"/>
+<circle cx="120" cy="160" r="2.4"/>
+<circle cx="440" cy="360" r="2.4"/>
+<circle cx="880" cy="360" r="2.4"/>
+<circle cx="1160" cy="320" r="2.4"/>
+<circle cx="320" cy="160" r="2.4"/>
+<circle cx="960" cy="240" r="2.4"/>
+<circle cx="640" cy="360" r="2.4"/>
+<circle cx="1120" cy="320" r="2.4"/>
+<circle cx="1200" cy="200" r="2.4"/>
+<circle cx="40" cy="200" r="2.4"/>
+<circle cx="120" cy="80" r="2.4"/>
+<circle cx="560" cy="80" r="2.4"/>
+<circle cx="240" cy="200" r="2.4"/>
+<circle cx="1120" cy="240" r="2.4"/>
+<circle cx="560" cy="400" r="2.4"/>
+<circle cx="320" cy="400" r="2.4"/>
+<circle cx="800" cy="360" r="2.4"/>
+<circle cx="160" cy="280" r="2.4"/>
+<circle cx="1160" cy="160" r="2.4"/>
+<circle cx="1360" cy="160" r="2.4"/>
+<circle cx="1120" cy="160" r="2.4"/>
+<circle cx="120" cy="320" r="2.4"/>
+<circle cx="760" cy="400" r="2.4"/>
+<circle cx="560" cy="320" r="2.4"/>
+<circle cx="960" cy="400" r="2.4"/>
+<circle cx="720" cy="400" r="2.4"/>
+<circle cx="160" cy="200" r="2.4"/>
+<circle cx="600" cy="200" r="2.4"/>
+<circle cx="1240" cy="280" r="2.4"/>
+<circle cx="920" cy="400" r="2.4"/>
+<circle cx="1200" cy="360" r="2.4"/>
+<circle cx="360" cy="200" r="2.4"/>
+<circle cx="1400" cy="360" r="2.4"/>
+<circle cx="840" cy="200" r="2.4"/>
+<circle cx="960" cy="320" r="2.4"/>
+<circle cx="1040" cy="200" r="2.4"/>
+<circle cx="800" cy="200" r="2.4"/>
+<circle cx="600" cy="120" r="2.4"/>
+<circle cx="200" cy="360" r="2.4"/>
+<circle cx="560" cy="160" r="2.4"/>
+<circle cx="1080" cy="400" r="2.4"/>
+<circle cx="440" cy="320" r="2.4"/>
+<circle cx="920" cy="420" r="2.4"/>
+<circle cx="680" cy="460" r="2.4"/>
+<circle cx="200" cy="280" r="2.4"/>
+<circle cx="40" cy="160" r="2.4"/>
+<circle cx="440" cy="240" r="2.4"/>
+<circle cx="1080" cy="320" r="2.4"/>
+<circle cx="1120" cy="420" r="2.4"/>
+<circle cx="400" cy="280" r="2.4"/>
+<circle cx="480" cy="160" r="2.4"/>
+<circle cx="1240" cy="360" r="2.4"/>
+<circle cx="680" cy="160" r="2.4"/>
+<circle cx="1000" cy="360" r="2.4"/>
+<circle cx="360" cy="280" r="2.4"/>
+<circle cx="1080" cy="240" r="2.4"/>
+<circle cx="880" cy="160" r="2.4"/>
+<circle cx="1160" cy="120" r="2.4"/>
+<circle cx="1280" cy="240" r="2.4"/>
+<circle cx="1120" cy="120" r="2.4"/>
+<circle cx="240" cy="400" r="2.4"/>
+<circle cx="1240" cy="460" r="2.4"/>
+<circle cx="1000" cy="460" r="2.4"/>
+<circle cx="480" cy="80" r="2.4"/>
+<circle cx="1320" cy="160" r="2.4"/>
+<circle cx="680" cy="80" r="2.4"/>
+<circle cx="1120" cy="440" r="2.4"/>
+<circle cx="1080" cy="160" r="2.4"/>
+<circle cx="440" cy="80" r="2.4"/>
+<circle cx="880" cy="80" r="2.4"/>
+<circle cx="280" cy="320" r="2.4"/>
+<circle cx="120" cy="200" r="2.4"/>
+<circle cx="1240" cy="380" r="2.4"/>
+<circle cx="80" cy="200" r="2.4"/>
+<circle cx="720" cy="280" r="2.4"/>
+<circle cx="1120" cy="360" r="2.4"/>
+<circle cx="920" cy="280" r="2.4"/>
+<circle cx="680" cy="320" r="2.4"/>
+<circle cx="880" cy="320" r="2.4"/>
+<circle cx="1160" cy="280" r="2.4"/>
+</g>
+<g fill="none" stroke="#818cf8" stroke-width="1.2">
+<rect x="1020" y="260" width="120" height="120" rx="3"/>
+<rect x="900" y="100" width="120" height="120" rx="3"/>
+<rect x="560" y="220" width="80" height="120" rx="3"/>
+<rect x="780" y="60" width="120" height="120" rx="3"/>
+<rect x="540" y="180" width="120" height="120" rx="3"/>
+<rect x="120" y="80" width="80" height="80" rx="3"/>
+</g>
+</svg>

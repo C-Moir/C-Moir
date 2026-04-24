@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>X header - @camjmoir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1500px;
+    height: 500px;
+    overflow: hidden;
+  }
+  body {
+    background: #080810;
+    color: #e5e7eb;
+    font-family: 'Inter', -apple-system, sans-serif;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Layer 1: base grid */
+  .grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+    background-size: 56px 56px;
+    pointer-events: none;
+  }
+
+  /* Layer 2: circuit backdrop */
+  .circuit {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.22;
+    pointer-events: none;
+  }
+
+  /* Layer 3: indigo glows */
+  .glow-1 {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background: radial-gradient(circle, rgba(99,102,241,0.32) 0%, rgba(99,102,241,0.06) 32%, transparent 55%);
+    top: -440px;
+    right: -320px;
+    pointer-events: none;
+    filter: blur(10px);
+  }
+  .glow-2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(129,140,248,0.14) 0%, transparent 60%);
+    bottom: -180px;
+    left: 250px;
+    pointer-events: none;
+    filter: blur(20px);
+  }
+
+  /* Layer 4: soft center vignette so text pops */
+  .vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(8,8,16,0.4) 0%, rgba(8,8,16,0.15) 55%, transparent 75%);
+    pointer-events: none;
+  }
+
+  /* Layer 5: bottom fade - lighter here since the avatar covers the
+     bottom-left corner anyway. */
+  .bottom-fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 140px;
+    background: linear-gradient(to top, #0a0a16 0%, transparent 100%);
+    pointer-events: none;
+  }
+
+  /* Accent dots, top-left (safe from avatar overlap on desktop) */
+  .dots {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    display: flex;
+    gap: 8px;
+    z-index: 2;
+  }
+  .dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #818cf8;
+    box-shadow: 0 0 16px rgba(129,140,248,0.75);
+  }
+  .dots span:nth-child(1) { opacity: 1; }
+  .dots span:nth-child(2) { opacity: 0.6; }
+  .dots span:nth-child(3) { opacity: 0.3; }
+
+  /* Main content lives in the middle horizontal strip so it survives
+     mobile's vertical crop. */
+  .content {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 0 80px 0 380px;
+    /* left padding clears the profile avatar on desktop */
+    gap: 60px;
+    z-index: 2;
+  }
+
+  .tagline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+  }
+  .tagline .accent {
+    color: #818cf8;
+  }
+
+  .subline {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 22px;
+    color: #94a3b8;
+    font-weight: 500;
+    margin-top: 18px;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+  .subline .sep {
+    color: #818cf8;
+    margin: 0 10px;
+  }
+
+  .logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .logo {
+    width: 460px;
+    height: auto;
+    filter: drop-shadow(0 0 32px rgba(129,140,248,0.5));
+  }
+
+  /* Avatar placement indicator - invisible but reserves mental space
+     so the design accounts for it. Commented out intentionally. */
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <img class="circuit" src="circuit-header.svg" alt="" />
+  <div class="glow-1"></div>
+  <div class="glow-2"></div>
+  <div class="vignette"></div>
+  <div class="bottom-fade"></div>
+  <div class="dots"><span></span><span></span><span></span></div>
+
+  <div class="content">
+    <div>
+      <div class="tagline">Shipping<br/><span class="accent">in public.</span></div>
+      <div class="subline">Brisbane <span class="sep">/</span> Solo SaaS <span class="sep">/</span> Claude Code</div>
+    </div>
+    <div class="logo-wrap">
+      <img class="logo" src="streamables-logo-cropped.png" alt="Streamables.live" />
+    </div>
+  </div>
+</body>
+</html>
