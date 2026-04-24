@@ -18,32 +18,67 @@
     color: #e5e7eb;
     font-family: 'Inter', -apple-system, sans-serif;
     position: relative;
-    padding: 88px 96px;
+    padding: 72px 84px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  /* Layered backgrounds */
+  /* Layer 1: Faint base grid for depth */
   .grid-bg {
     position: absolute;
     inset: 0;
     background-image:
-      linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px);
+      linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
     background-size: 56px 56px;
     pointer-events: none;
   }
-  .glow {
+
+  /* Layer 2: Circuit trace backdrop - procedurally generated PCB-style
+     orthogonal traces + component rectangles in indigo. Held at low
+     opacity so it reads as texture, not decoration. */
+  .circuit {
     position: absolute;
-    width: 1100px;
-    height: 1100px;
-    background: radial-gradient(circle, rgba(99,102,241,0.25) 0%, rgba(99,102,241,0.06) 35%, transparent 55%);
-    top: -440px;
-    right: -380px;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.22;
+    pointer-events: none;
+  }
+
+  /* Layer 3: Indigo glows */
+  .glow-1 {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    background: radial-gradient(circle, rgba(99,102,241,0.32) 0%, rgba(99,102,241,0.08) 32%, transparent 55%);
+    top: -500px;
+    right: -420px;
     pointer-events: none;
     filter: blur(10px);
   }
+  .glow-2 {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(129,140,248,0.16) 0%, transparent 60%);
+    bottom: -220px;
+    left: -160px;
+    pointer-events: none;
+    filter: blur(20px);
+  }
+
+  /* Layer 4: Soft dark mask over the circuit in the center so text
+     stays readable while edges still show the circuit pattern. */
+  .vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(8,8,16,0.55) 0%, rgba(8,8,16,0.2) 50%, transparent 75%);
+    pointer-events: none;
+  }
+
+  /* Layer 5: Bottom fade */
   .bottom-fade {
     position: absolute;
     left: 0;
@@ -53,21 +88,22 @@
     background: linear-gradient(to top, #0a0a16 0%, transparent 100%);
     pointer-events: none;
   }
-  /* Small indigo accent dots in the top-left corner area */
+
+  /* Top-left accent dots */
   .dots {
     position: absolute;
-    top: 80px;
-    left: 96px;
+    top: 88px;
+    left: 84px;
     display: flex;
-    gap: 6px;
-    z-index: 1;
+    gap: 7px;
+    z-index: 2;
   }
   .dots span {
-    width: 6px;
-    height: 6px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background: #818cf8;
-    box-shadow: 0 0 12px rgba(129,140,248,0.6);
+    box-shadow: 0 0 14px rgba(129,140,248,0.75);
   }
   .dots span:nth-child(1) { opacity: 1; }
   .dots span:nth-child(2) { opacity: 0.6; }
@@ -75,67 +111,92 @@
 
   .top-row {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 24px;
+    padding-top: 32px;
   }
 
   .handle {
     color: #818cf8;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 500;
     letter-spacing: -0.01em;
   }
 
-  .logo {
-    width: 340px;
+  .logo-corner {
+    width: 230px;
     height: auto;
-    opacity: 0.95;
-    filter: drop-shadow(0 0 30px rgba(129,140,248,0.35));
+    filter: drop-shadow(0 0 24px rgba(129,140,248,0.4));
   }
 
+  /* Main row: avatar + name + info stack */
   .main {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: end;
-    gap: 96px;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 12px;
+  }
+
+  .avatar-wrap {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #818cf8 0%, rgba(129,140,248,0.3) 70%, transparent 100%);
+    box-shadow: 0 0 40px rgba(129,140,248,0.35), 0 0 0 1px rgba(255,255,255,0.04);
+    flex-shrink: 0;
+  }
+  .avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
   }
 
   .name {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 168px;
     font-weight: 700;
     letter-spacing: -0.055em;
     color: white;
-    line-height: 0.86;
+    line-height: 0.88;
     text-transform: uppercase;
   }
-  .name .last {
+  .name .line-1 {
+    display: block;
+    font-size: 104px;
+  }
+  .name .line-1 .initial {
+    color: #818cf8;
+    padding-left: 14px;
+  }
+  .name .line-2 {
+    display: block;
+    font-size: 104px;
     color: #c7d2fe;
   }
 
   .info-stack {
     text-align: right;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
-    font-size: 20px;
-    line-height: 1.9;
+    font-size: 17px;
+    line-height: 1.85;
     color: #cbd5e1;
     border-right: 2px solid #818cf8;
-    padding-right: 28px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-right: 22px;
+    min-width: 220px;
   }
-  .info-stack .line { display: block; }
   .info-stack .label {
     color: #64748b;
-    font-size: 13px;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.18em;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     margin-bottom: 2px;
@@ -146,31 +207,36 @@
     color: #e5e7eb;
     font-weight: 500;
   }
-  .info-stack a, .info-stack .value { color: #e5e7eb; text-decoration: none; }
 </style>
 </head>
 <body>
   <div class="grid-bg"></div>
-  <div class="glow"></div>
+  <img class="circuit" src="circuit.svg" alt="" />
+  <div class="glow-1"></div>
+  <div class="glow-2"></div>
+  <div class="vignette"></div>
   <div class="bottom-fade"></div>
   <div class="dots"><span></span><span></span><span></span></div>
 
   <div class="top-row">
     <div class="handle">github.com/C-Moir</div>
-    <img class="logo" src="streamables-logo-cropped.png" alt="Streamables.live" />
+    <img class="logo-corner" src="streamables-logo-cropped.png" alt="Streamables.live" />
   </div>
 
   <div class="main">
+    <div class="avatar-wrap">
+      <img class="avatar" src="avatar.png" alt="Cameron J. Moir" />
+    </div>
     <div class="name">
-      Cameron<br/>
-      <span class="last">J. Moir</span>
+      <span class="line-1">Cameron<span class="initial">J.</span></span>
+      <span class="line-2">Moir</span>
     </div>
     <div class="info-stack">
       <div class="label">Based</div>
-      <div class="value">Brisbane, Australia</div>
+      <div class="value">Brisbane, AU</div>
       <div class="label">Web</div>
       <div class="value">streamables.live</div>
-      <div class="label">X</div>
+      <div class="label">On X</div>
       <div class="value">@CameronMoir13</div>
       <div class="value">@X_Streamables</div>
     </div>
