@@ -86,6 +86,13 @@ I build is some version of that.
 
 ---
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=C-Moir&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=e5e7eb" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=C-Moir&layout=compact&hide_border=true&bg_color=0d1117&title_color=818cf8&text_color=e5e7eb" alt="Top languages" />
+</p>
+
+---
+
 *Brisbane ·
 [streamables.live](https://streamables.live) ·
 [@X_Streamables](https://x.com/X_Streamables)*
