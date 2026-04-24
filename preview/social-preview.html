@@ -22,6 +22,9 @@
     display: grid;
     grid-template-rows: auto 1fr;
     row-gap: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   /* Layer 1: Faint base grid for depth */
@@ -187,26 +190,27 @@
   .info-stack {
     text-align: right;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
-    font-size: 17px;
-    line-height: 1.85;
+    font-size: 22px;
+    line-height: 1.65;
     color: #cbd5e1;
     border-right: 2px solid #818cf8;
-    padding-right: 22px;
-    min-width: 220px;
+    padding-right: 28px;
+    min-width: 280px;
+    font-weight: 500;
   }
   .info-stack .label {
-    color: #64748b;
-    font-size: 11px;
+    color: #818cf8;
+    font-size: 13px;
     text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-weight: 700;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 2px;
-    margin-top: 14px;
+    margin-bottom: 4px;
+    margin-top: 18px;
   }
   .info-stack .label:first-child { margin-top: 0; }
   .info-stack .value {
-    color: #e5e7eb;
+    color: #f1f5f9;
     font-weight: 500;
   }
 </style>
