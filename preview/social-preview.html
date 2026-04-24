@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Social preview - Cameron J. Moir</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1280px;
+    height: 640px;
+    overflow: hidden;
+  }
+  body {
+    background: #080810;
+    color: #e5e7eb;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    position: relative;
+    padding: 96px 96px 80px 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Subtle grid background */
+  .grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+  }
+
+  /* Indigo glow in the top-right */
+  .glow {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, rgba(99,102,241,0.28) 0%, rgba(99,102,241,0.08) 30%, transparent 55%);
+    top: -320px;
+    right: -260px;
+    pointer-events: none;
+    filter: blur(8px);
+  }
+
+  /* Bottom fade to match landing page styling */
+  .bottom-fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 180px;
+    background: linear-gradient(to top, #0a0a16 0%, transparent 100%);
+    pointer-events: none;
+  }
+
+  .content { position: relative; z-index: 1; }
+
+  .handle {
+    color: #818cf8;
+    font-family: ui-monospace, 'SF Mono', Consolas, 'Courier New', monospace;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .name {
+    font-size: 112px;
+    font-weight: 900;
+    letter-spacing: -0.045em;
+    color: white;
+    line-height: 0.92;
+    margin-top: 24px;
+  }
+
+  .accent {
+    width: 96px;
+    height: 5px;
+    background: #818cf8;
+    border-radius: 3px;
+    margin-top: 44px;
+    margin-bottom: 32px;
+    box-shadow: 0 0 24px rgba(129,140,248,0.5);
+  }
+
+  .tagline {
+    font-size: 36px;
+    font-weight: 500;
+    color: #cbd5e1;
+    line-height: 1.25;
+    max-width: 920px;
+    letter-spacing: -0.015em;
+  }
+
+  .tagline em {
+    font-style: normal;
+    color: #818cf8;
+    font-weight: 600;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 22px;
+    color: #94a3b8;
+  }
+
+  .footer .label {
+    font-size: 13px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .footer .value {
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .footer .right {
+    text-align: right;
+    font-family: ui-monospace, 'SF Mono', Consolas, monospace;
+  }
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="glow"></div>
+  <div class="bottom-fade"></div>
+
+  <div class="content">
+    <div class="handle">github.com/C-Moir</div>
+    <div class="name">Cameron J. Moir</div>
+    <div class="accent"></div>
+    <div class="tagline">Brisbane solo SaaS builder. <em>Hospitality operator turned shipper.</em><br/>Four products live in production. Not demos.</div>
+  </div>
+
+  <div class="footer">
+    <div>
+      <div class="label">Studio</div>
+      <div class="value">streamables.live</div>
+    </div>
+    <div class="right">
+      <div class="label">On X</div>
+      <div class="value">@CameronMoir13</div>
+    </div>
+  </div>
+</body>
+</html>
