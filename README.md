@@ -73,11 +73,11 @@ own names.
 [![My Skills](https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,supabase,postgres,vercel,github,git)](https://skillicons.dev)&nbsp;<img src="https://cdn.simpleicons.org/stripe/635bff" height="48" alt="Stripe" />
 
 Next.js App Router, TypeScript, Supabase, Stripe, Clerk, Vercel.
-Playwright when it's worth it. Linear for issues. PostHog once a
-product has enough users to care about analytics.
+Playwright when it's worth it. Linear for issues. 
+PostHog once a product has enough users to care about analytics.
 
-Nothing exotic. Modern tools used with intent. I'd rather ship
-something real on boring infrastructure than plan a platform on
+Nothing exotic. Modern tools used with intent. 
+I'd rather ship something real on boring infrastructure than plan a platform on
 the framework of the week.
 
 ---
@@ -85,8 +85,8 @@ the framework of the week.
 ## How I work
 
 Ship small, commit often, keep master green. I write my own PRs
-and review them by hand before pushing. I prefer opinionated
-products in the market to platforms in planning.
+and review them by hand before pushing. 
+I prefer opinionated products in the market to platforms in planning.
 
 I usually have three things in flight at once because that's how
 I figure out which one's real.
@@ -96,12 +96,12 @@ I figure out which one's real.
 ## Background
 
 Two decades in professional kitchens. Head chef, kitchen designer,
-multi-venue operations across Brisbane and regional Queensland. I
-know what 80% of a business looks like when nobody's watching.
+multi-venue operations across Brisbane and regional Queensland. 
+I know what 80% of a business looks like when nobody's watching.
 
 Same pattern repeats everywhere: who does the work, how you measure
-it, what breaks first when you stop paying attention. Every product
-I build is some version of that.
+it, what breaks first when you stop paying attention. 
+Every product I build is some version of that.
 
 ---
 
