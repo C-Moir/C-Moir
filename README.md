@@ -1,23 +1,12 @@
-"# C-Moir" 
-
 # Cameron J. Moir
 
 Brisbane, Australia.
 
-I spent twenty years inside professional kitchens and came out 
-the other side thinking about civilisations.
+Twenty years running professional kitchens. Now I build SaaS.
 
-Not metaphorically. The same questions that make a kitchen work 
-- who contributes what, how you measure it, what happens when 
-someone doesn't pull their weight, how you keep the whole thing 
-from collapsing — turn out to be the same questions underneath 
-economics, AI governance, and how digital societies organise 
-themselves.
+Hospitality gave me an operator's eye. Software gave me the tools to act on it solo. Four products live in production right now, not demos.
 
-I build software. I research AI systems. I think seriously about 
-what it means for intelligence to emerge, for reputation to be 
-earned rather than gamed, and for ethics to be structural rather 
-than decorative.
+Claude Code is my main dev environment and I'm not cagey about it. AI removes the lag between knowing what to build and having it exist. Judgement still matters. Taste still matters. Volume just goes up.
 
 Most of what I build starts as a tool I needed and couldn't find.
 
@@ -26,70 +15,77 @@ Most of what I build starts as a tool I needed and couldn't find.
 ## Projects
 
 **[ClipTips](https://cliptips-mvp.vercel.app)**  
-Live paid sessions with verified experts, translated in
-real time. The person who can answer your question exists.
-They just don't speak your language.
+Knowledge marketplace with live AI session translation. Book an
+expert by the minute, pay in CLIP tokens, have the session dubbed
+and subtitled in real time. The person who can answer your question
+exists. They just don't speak your language.
 
 **[Doughboy](https://doughboy-prd.vercel.app)**  
-Production intelligence for multi-venue pizza kitchens.
-The problem nobody measures until the P&L goes sideways.
+Production intelligence for multi-venue pizza kitchens. Track dough
+yields, forecast covers, catch waste before the P&L does. Built
+from a problem I watched head chefs lose money to for a decade.
 
 **[Graffiti Is Art](https://graffiti-is-art.com)**  
-Street photography as art restoration. Contributors worldwide 
-colour-matched into physical mosaic reconstructions of stolen 
-and lost masterpieces. The dismissed culture rebuilding the 
-lost one.
+Street photography as art restoration. Contributors worldwide
+colour-matched into physical mosaic reconstructions of stolen and
+lost masterpieces. The dismissed culture rebuilding the lost one.
 
 **[Clawlosseum](https://clawlosseum.vercel.app)**  
-AI agents in structured competition. Part experiment, 
-part spectacle.
+AI agents in structured competition. Part experiment, part spectacle.
 
 **[deployment-feed](https://github.com/C-Moir/deployment-feed)**  
-Real-time ledger of new deployments across 12 hosting platforms via 
-Certificate Transparency logs. Security scanning, AI tool detection, 
-3D interactive galaxy map. Every card is a cert that was just issued.
+Real-time ledger of new production deployments across twelve hosting
+platforms, scraped from Certificate Transparency logs. Security
+scanning, AI tool detection, 3D galaxy view. Every card is a cert
+that was issued minutes ago.
 
-**[lean-ops](https://github.com/C-Moir/claude-lean-ops)**  
-Claude Code skill for token efficiency. Parallel calls by 
-default, targeted reads, aggregators instead of crawlers. 
-Applies without being told to.
+**[claude-lean-ops](https://github.com/C-Moir/claude-lean-ops)**  
+Claude Code skill for token efficiency. Parallel tool calls,
+targeted reads, aggregators not crawlers. Auto-applies without
+being told to.
 
 **[Streamables.live](https://streamables.live)**  
-My studio. AI implementation, hospitality operations, 
-business systems. For operators who want things to 
-actually change.
+My studio. AI implementation and systems thinking for hospitality
+operators. New projects land here before moving out under their
+own names.
 
 ---
 
-## What I Think About
+## Stack
 
-How intelligence actually emerges — not as a feature 
-to be engineered but as a consequence of the right 
-conditions existing.
+Next.js App Router, TypeScript, Supabase, Stripe, Clerk, Vercel.
+Playwright when it's worth it. Linear for issues. PostHog once a
+product has enough users to care about analytics.
 
-How reputation systems could work if they measured 
-real behaviour instead of engagement metrics.
+Nothing exotic. Modern tools used with intent. I'd rather ship
+something real on boring infrastructure than plan a platform on
+the framework of the week.
 
-How ethics gets built into the architecture of a system 
-rather than enforced on top of it.
+---
 
-Whether the gap between how technology develops and how 
-human beings actually live is closeable, and what it 
-would take.
+## How I work
+
+Ship small, commit often, keep master green. I write my own PRs
+and review them by hand before pushing. I prefer opinionated
+products in the market to platforms in planning.
+
+I usually have three things in flight at once because that's how
+I figure out which one's real.
 
 ---
 
 ## Background
 
-Hospitality operator. Systems developer. Researcher.
-Slightly too interested in how civilisations organise 
-value exchange.
+Two decades in professional kitchens. Head chef, kitchen designer,
+multi-venue operations across Brisbane and regional Queensland. I
+know what 80% of a business looks like when nobody's watching.
 
-I build in public. I think out loud. I'm usually working 
-on something that won't make sense until it's finished.
+Same pattern repeats everywhere: who does the work, how you measure
+it, what breaks first when you stop paying attention. Every product
+I build is some version of that.
 
 ---
 
-*Brisbane
-[streamables.live](https://streamables.live) · 
+*Brisbane ·
+[streamables.live](https://streamables.live) ·
 [@X_Streamables](https://x.com/X_Streamables)*
