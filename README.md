@@ -70,6 +70,8 @@ own names.
 
 ## Stack
 
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,supabase,postgres,stripe,vercel,github,git)](https://skillicons.dev)
+
 Next.js App Router, TypeScript, Supabase, Stripe, Clerk, Vercel.
 Playwright when it's worth it. Linear for issues. PostHog once a
 product has enough users to care about analytics.
@@ -103,7 +105,11 @@ I build is some version of that.
 
 ---
 
-![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=C-Moir&theme=github-compact&hide_border=true&bg_color=0d1117&line=818cf8&point=e5e7eb&area=true&custom_title=Contribution+Activity)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C-Moir/C-Moir/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/C-Moir/C-Moir/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/C-Moir/C-Moir/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
