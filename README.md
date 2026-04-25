@@ -6,7 +6,7 @@
 
 Brisbane, Australia.
 
-Twenty years running professional kitchens. Now I build SaaS.
+I build software solo. Came up through twenty years of operations work - the kind that teaches you what breaks first when no one's watching.
 
 Hospitality gave me an operator's eye. Software gave me the tools to act on it solo. Four products live in production right now, not demos.
 
@@ -95,13 +95,13 @@ I figure out which one's real.
 
 ## Background
 
-Two decades in professional kitchens. Head chef, kitchen designer,
-multi-venue operations across Brisbane and regional Queensland. 
-I know what 80% of a business looks like when nobody's watching.
+Two decades on the line - section leadership in Brisbane fine
+dining, head chef in Canada, multiple alpine seasons running
+remote kitchens. SOPs and operational systems were always the
+side of the trade I cared about most.
 
-Same pattern repeats everywhere: who does the work, how you measure
-it, what breaks first when you stop paying attention. 
-Every product I build is some version of that.
+Every product I build addresses a pain I've felt or watched
+someone else lose money to firsthand.
 
 ---
 
