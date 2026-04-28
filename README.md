@@ -17,11 +17,11 @@ Most of what I build starts as a tool I needed and couldn't find.
 </td>
 <td width="42%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=C-Moir&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=e5e7eb" alt="GitHub stats" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=C-Moir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=e5e7eb&cache_seconds=14400" alt="GitHub stats" width="100%" />
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=C-Moir&layout=compact&hide_border=true&bg_color=0d1117&title_color=818cf8&text_color=e5e7eb" alt="Top languages" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=C-Moir&layout=compact&hide_border=true&bg_color=0d1117&title_color=818cf8&text_color=e5e7eb&cache_seconds=14400" alt="Top languages" width="100%" />
 
 </td>
 </tr>
