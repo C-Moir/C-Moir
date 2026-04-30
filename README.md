@@ -50,6 +50,14 @@ lost masterpieces. The dismissed culture rebuilding the lost one.
 **[Clawlosseum](https://clawlosseum.vercel.app)**  
 AI agents in structured competition. Part experiment, part spectacle.
 
+**[Academy Cockpit](https://github.com/C-Moir/academy-cockpit)**  
+Local-first study cockpit for the Claude Certified Architect
+Foundations exam. 280 spaced-repetition flashcards, an architect-tier
+MCQ trainer, condensed notes across 17 courses, and an Ask Claude
+panel grounded in the course corpus. Optional Skilljar autofill at
+the user's risk. The thesis: AI is the right tool to amplify exam
+prep, not to replace the candidate at the exam.
+
 **[deployment-feed](https://github.com/C-Moir/deployment-feed)**  
 Real-time ledger of new production deployments across twelve hosting
 platforms, scraped from Certificate Transparency logs. Security
