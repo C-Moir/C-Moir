@@ -54,6 +54,13 @@ Claude Code skill for token efficiency. Parallel tool calls,
 targeted reads, aggregators not crawlers. Auto-applies without
 being told to.
 
+**[Shukinkara](https://c-moir.github.io/Shukinkara/)**  
+Founding draft for a member-owned cooperative grounded in fourteen
+articles, with Hivemind.AI-OS as the personal AI gateway each member
+receives. Years of UMB and Hivemind work consolidated into one
+constitution plus fifty-plus source documents in the appendix.
+Not built yet. Argued for, in the open.
+
 **[Streamables.live](https://streamables.live)**  
 My studio. AI implementation and systems thinking for hospitality
 operators. New projects land here before moving out under their
