@@ -1,0 +1,87 @@
+# Generates a comprehensive metrics SVG via lowlighter/metrics and
+# pushes the output to the `metrics` branch. The README references
+# the SVG via raw.githubusercontent.com so it stays fresh as new
+# contributions land.
+#
+# Setup required (one-time):
+#   1. Create a Personal Access Token at:
+#      https://github.com/settings/tokens/new
+#      Scopes: repo, read:user, read:org
+#      Name: "Profile metrics"
+#   2. Add the token as a repository secret named METRICS_TOKEN at:
+#      https://github.com/C-Moir/C-Moir/settings/secrets/actions/new
+#   3. Trigger this workflow manually once via the Actions tab to
+#      seed the metrics branch with the first SVG.
+name: Metrics
+
+on:
+  schedule:
+    # Refresh daily at 00:00 UTC (10:00 AEST, 11:00 AEDT).
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/metrics.yml
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 10
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Output the SVG to a dedicated branch to keep main clean.
+          filename: github-metrics.svg
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "chore: refresh metrics"
+
+          # Visual config.
+          template: classic
+          config_timezone: Australia/Brisbane
+          config_padding: 0, 8 + 11%
+
+          # Base content - header, activity feed, community card,
+          # repositories card, metadata footer.
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          repositories_forks: no
+
+          # Year-long contribution heat map - replaces the old
+          # github-readme-activity-graph card.
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Language breakdown by bytes, with a deeper analysis
+          # ignoring boilerplate file types.
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, scss, dockerfile, makefile, shell
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 30
+
+          # When you actually commit - charts of weekday and
+          # time-of-day distribution over the last 14 days.
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+
+          # PR follow-up rates and review activity.
+          plugin_followup: yes
+
+          # Lines added vs removed across recent repos.
+          plugin_lines: yes
+          plugin_lines_repositories_limit: 4
+          plugin_lines_history_limit: 1

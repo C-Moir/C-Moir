@@ -1,7 +1,3 @@
-<table>
-<tr>
-<td width="58%" valign="top">
-
 # Cameron J. Moir
 
 Brisbane, Australia.
@@ -14,18 +10,7 @@ Claude Code is my main dev environment and I'm not cagey about it. AI removes th
 
 Most of what I build starts as a tool I needed and couldn't find.
 
-</td>
-<td width="42%" valign="top">
-
-<img src="https://github-readme-stats.vercel.app/api?username=C-Moir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=e5e7eb&cache_seconds=14400" alt="GitHub stats" width="100%" />
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=C-Moir&layout=compact&hide_border=true&bg_color=0d1117&title_color=818cf8&text_color=e5e7eb&cache_seconds=14400" alt="Top languages" width="100%" />
-
-</td>
-</tr>
-</table>
+![Metrics](https://raw.githubusercontent.com/C-Moir/C-Moir/metrics/github-metrics.svg)
 
 ---
 
@@ -112,8 +97,6 @@ Every product I build addresses a pain I've felt or watched
 someone else lose money to firsthand.
 
 ---
-
-![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=C-Moir&theme=github-compact&hide_border=true&bg_color=0d1117&line=818cf8&point=e5e7eb&area=true&custom_title=Contribution+Activity)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C-Moir/C-Moir/output/github-contribution-grid-snake-dark.svg" />
