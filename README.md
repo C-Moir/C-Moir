@@ -2,13 +2,11 @@
 
 Brisbane, Australia.
 
-I build software solo. Came up through twenty years of operations work - the kind that teaches you what breaks first when no one's watching.
+I build software solo. Twenty years in hospitality operations before this.
 
-Hospitality gave me an operator's eye. Software gave me the tools to act on it solo. Four products live in production right now, not demos.
+Claude Code is my main dev environment.
 
-Claude Code is my main dev environment and I'm not cagey about it. AI removes the lag between knowing what to build and having it exist. Judgement still matters. Taste still matters. Volume just goes up.
-
-Most of what I build starts as a tool I needed and couldn't find.
+Most of what I build started as something I needed and couldn't find.
 
 ![Metrics](https://raw.githubusercontent.com/C-Moir/C-Moir/metrics/github-metrics.svg)
 
