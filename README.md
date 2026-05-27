@@ -41,6 +41,9 @@ panel grounded in the course corpus. Optional Skilljar autofill at
 the user's risk. The thesis: AI is the right tool to amplify exam
 prep, not to replace the candidate at the exam.
 
+**[llm-archive](https://github.com/C-Moir/llm-archive)**
+Local-first CLI that converts ChatGPT, Claude, Gemini and Grok chat history into Markdown + SQLite + an MCP server. No third-party servers, no vector DB lock-in, no telemetry.
+
 **[deployment-feed](https://github.com/C-Moir/deployment-feed)**  
 Real-time ledger of new production deployments across twelve hosting
 platforms, scraped from Certificate Transparency logs. Security
