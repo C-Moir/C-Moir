@@ -55,33 +55,6 @@ jobs:
           base_indepth: yes
           repositories_forks: no
 
-          # Year-long contribution heat map - replaces the old
-          # github-readme-activity-graph card.
+          # Contribution heat map.
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-          # Language breakdown by bytes, with a deeper analysis
-          # ignoring boilerplate file types.
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, scss, dockerfile, makefile, shell
-          plugin_languages_details: percentage
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 30
-
-          # When you actually commit - charts of weekday and
-          # time-of-day distribution over the last 14 days.
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-
-          # PR follow-up rates and review activity.
-          plugin_followup: yes
-
-          # Lines added vs removed across recent repos.
-          plugin_lines: yes
-          plugin_lines_repositories_limit: 4
-          plugin_lines_history_limit: 1
