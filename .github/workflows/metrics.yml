@@ -47,7 +47,6 @@ jobs:
           # Visual config.
           template: classic
           config_timezone: Australia/Brisbane
-          config_padding: 0, 8 + 11%
 
           # Base content - header, activity feed, community card,
           # repositories card, metadata footer.
@@ -57,4 +56,4 @@ jobs:
 
           # Contribution heat map.
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
