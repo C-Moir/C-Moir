@@ -4,6 +4,10 @@ Brisbane, Australia.
 
 I build software solo. Twenty years in hospitality operations before this.
 
+**Available for consulting** — AI implementation and operational systems for
+restaurants, venues, and multi-site hospitality groups. Fixed-price audits,
+hands-on builds. → [streamables.live](https://streamables.live) · info@streamables.live
+
 Claude Code is my main dev environment.
 
 Most of what I build started as something I needed and couldn't find.
